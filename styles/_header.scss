@@ -1,0 +1,49 @@
+
+header{
+    
+    
+    background: none;
+    position: fixed;
+    width: 100%;
+    left: 35%;
+    z-index: 2;
+   
+    
+    
+}
+
+.header-container{
+    display: flex;
+    
+    align-items: center;
+    
+    h1{
+        font-family: verdana;
+        padding-left: 10px;
+    }
+
+    ul{
+        display: flex;
+    }
+
+    li{
+        list-style: none;
+        padding: 10px 15px;
+        }
+
+        a{
+            font-family: verdana;
+            text-decoration: none;
+            color: white;
+            border: 1px  solid white;
+            border-radius: 18px;
+            padding: 2.5px 10px;
+            transition: 1s all ease;
+            font-size: 1rem;
+            &:hover{
+                background-color: white;
+                color: black;
+            }
+        }
+
+}

@@ -12,20 +12,20 @@ html {
 }
 
 header {
-  background: none;
+  background: transparent;
   position: fixed;
   width: 100%;
-  left: 35%;
   z-index: 2;
+  -webkit-transition: background-color .5s;
 }
 
 .header-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header-container h1 {
@@ -68,21 +68,26 @@ header {
   width: 100%;
   height: 900px;
   position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.banner h1 {
+.banner div {
   position: absolute;
-  top: 450px;
+  width: 100%;
+}
+
+.banner div h1 {
   color: white;
   font-size: 5rem;
-  left: 35%;
   font-family: verdana;
+  text-align: center;
 }
 
-.banner figure {
-  position: absolute;
-  top: 100px;
-  left: 45%;
+.banner div figure {
+  text-align: center;
+  padding-top: 150px;
 }
 
 .introduccion {
@@ -91,19 +96,33 @@ header {
   margin-top: 30px;
 }
 
+.introduccion .container-cafe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .introduccion h2 {
   font-family: arial;
   font-size: 3rem;
   text-align: center;
 }
 
-.introduccion p {
+.introduccion .cafe p {
   font-family: arial;
   text-align: justify;
   font-size: 1.5rem;
   margin: 15px 0;
   line-height: 40px;
   padding-left: 20px;
-  padding-right: 400px;
+  padding-right: 100px;
+}
+
+.introduccion .pic img {
+  border-radius: 5%;
+  margin-right: 25px;
+  margin-top: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=styles.css.map */

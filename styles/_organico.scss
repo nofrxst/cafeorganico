@@ -1,0 +1,26 @@
+.cafeorganico{
+    background-image: url(../img/cafe-organico.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    
+    .container-organico{
+        max-width: 1330px;
+        margin: auto;
+        
+        padding: 100px 50px;
+
+        h2{
+            color: white;
+        }
+    
+        p{
+            padding-top: 50px;
+            text-align: justify;
+            color: white;
+            font-size: 1.2rem;
+            font-family: Verdana;
+            line-height: 30px;
+        }
+    }
+   
+}

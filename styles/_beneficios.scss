@@ -1,0 +1,22 @@
+.beneficios{
+    margin-top: 20px;
+
+
+    .container-beneficios{
+        padding-top: 30px;
+        display:flex;
+        margin-bottom: 20px;
+        img{
+            padding-left: 300px;
+        }
+
+
+        p{
+            font-family: arial;
+            font-size: 1.5rem;
+            line-height: 70px;
+            padding-left: 100px;
+        }
+    }
+
+}

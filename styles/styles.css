@@ -11,6 +11,12 @@ html {
   scroll-behavior: smooth;
 }
 
+h2 {
+  font-family: arial;
+  font-size: 3rem;
+  text-align: center;
+}
+
 header {
   background: transparent;
   position: fixed;
@@ -48,7 +54,7 @@ header {
   font-family: verdana;
   text-decoration: none;
   color: white;
-  border: 1px  solid white;
+  border: 1.5px  solid white;
   border-radius: 18px;
   padding: 2.5px 10px;
   -webkit-transition: 1s all ease;
@@ -94,18 +100,13 @@ header {
   max-width: 1330px;
   margin: auto;
   margin-top: 30px;
+  border-bottom: 1px solid rgba(88, 38, 38, 0.74);
 }
 
 .introduccion .container-cafe {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.introduccion h2 {
-  font-family: arial;
-  font-size: 3rem;
-  text-align: center;
 }
 
 .introduccion .cafe p {
@@ -124,5 +125,58 @@ header {
   margin-top: 40px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.tiposdecafe {
+  max-width: 1330px;
+  margin: auto;
+  margin-top: 30px;
+  border-bottom: 1px solid rgba(88, 38, 38, 0.74);
+}
+
+.tiposdecafe .figures {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  padding-left: 200px;
+}
+
+.tiposdecafe .figures figure {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  background: rgba(31, 30, 30, 0.582);
+  border-radius: 10px;
+}
+
+.tiposdecafe .figures figure div img {
+  position: absolute;
+  border-radius: 10px 10px 0 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.tiposdecafe .figures figure div h2 {
+  position: relative;
+  top: 120px;
+  text-align: left;
+  color: white;
+  left: 55px;
+}
+
+.tiposdecafe .figures figure .description {
+  margin-top: 250px;
+  padding: 0 15px;
+  padding-bottom: 15px;
+}
+
+.tiposdecafe .figures figure .description p {
+  font-family: verdana;
+  list-style: circle;
+  line-height: 25px;
+  text-align: justify;
+  font-size: 1rem;
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */

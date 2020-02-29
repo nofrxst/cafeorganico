@@ -1,0 +1,52 @@
+.tiposdecafe{
+   
+    
+    max-width: 1330px;
+    margin: auto;
+    margin-top: 30px;
+    border-bottom: 1px solid rgba(88, 38, 38, 0.74);
+    
+   .figures{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 200px;
+  
+    figure{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 400px;
+        background: rgba(31, 30, 30, 0.582);
+        border-radius:10px  ; 
+        div {
+        img{
+            position: absolute; 
+            border-radius:10px 10px 0 0  ; 
+            object-fit: cover;
+             
+        }
+        h2{
+            position: relative;
+            top :120px;
+            text-align: left;
+            color: white;
+            left: 55px;
+
+        }
+        }
+
+       .description{
+           margin-top: 250px;
+           padding: 0 15px;
+           padding-bottom: 15px;
+           p{
+               font-family: verdana;
+               list-style:circle;
+               line-height: 25px;
+               text-align: justify;
+               font-size: 1rem;
+               color: white;
+           }
+         }
+        }
+        }
+}

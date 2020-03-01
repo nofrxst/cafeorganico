@@ -1,12 +1,135 @@
 footer{
+    
     background: rgb(37, 37, 37);
+}
+
+
+.container-footer{
+    max-width: 1330px;
+    margin: auto;
+    width: 100%;
     padding: 50px 0;
-
-    h3{
+    display: flex;
+    h4{
         color: white;
-        font-family: verdana;
+        font-family: arial;
         font-size: 1rem;
-        text-align: center;
+        text-align: left;
+        padding-bottom: 20px;
 
+    }
+
+    p{
+        color: white;
+        font-family: arial;
+    }
+
+    .contac{
+        padding-left: 50px;
+        h4{
+            padding-left: 60px;
+        }
+        
+        div{
+            display: flex;
+            padding-bottom: 15px;
+            p{
+                padding-top: 10px;
+                padding-left: 20px;
+            }
+        }
+    }
+
+    .separation{
+        border-left: 1px solid rgb(134, 134, 134);
+        height: 150px;
+
+        position: relative;
+        left: 500px;
+    }
+
+    .direccion{
+        margin: auto;
+        justify-content: space-between;
+        padding-left: 30%;
+        h4{
+            padding-left: 60px;
+        }
+        .location{
+ 
+            display: flex;
+
+            p{
+                padding-top: 10px;
+                padding-left: 20px;
+            }
+        }
+    }
+}
+
+
+@media (max-width:1024px){
+
+    .container-footer{
+        max-width: 1330px;
+        margin: auto;
+        width: 100%;
+        padding: 50px 0;
+        display: flex;
+        h4{
+            color: white;
+            font-family: arial;
+            font-size: 1rem;
+            text-align: left;
+            padding-bottom: 20px;
+    
+        }
+    
+        p{
+            color: white;
+            font-family: arial;
+        }
+    
+        .contac{
+            padding-left: 50px;
+            h4{
+                padding-left: 60px;
+            }
+            
+            div{
+                display: flex;
+                padding-bottom: 15px;
+                p{
+                    padding-top: 10px;
+                    padding-left: 20px;
+                }
+            }
+        }
+    
+        .separation{
+            border-left: 1px solid rgb(134, 134, 134);
+            height: 150px;
+    
+            position: relative;
+            left: 250px;
+        }
+    
+        .direccion{
+            margin: auto;
+            justify-content: space-between;
+            padding-left: 30%;
+            h4{
+                padding-left: 60px;
+            }
+            .location{
+     
+                display: flex;
+    
+                p{
+                    padding-top: 10px;
+                    padding-left: 20px;
+                }
+            }
+        }
     }
 }

@@ -34,3 +34,46 @@
     }
 }
 }
+
+@media (max-width:1024px){
+
+    .introduccion{
+        max-width: 1330px;
+        margin: auto;
+        margin-top: 30px;
+        border-bottom: 1px solid rgba(88, 38, 38, 0.74);
+       .container-cafe{
+           display: block;
+       }
+    
+      
+       .cafe{
+       
+      
+    
+        p{
+            font-family: arial;
+            text-align: justify;
+            font-size: 1rem;
+            margin: 15px 0;
+            line-height: 40px;
+            padding-left: 20px;
+            padding-right: 100px;
+    
+        }
+    
+    }
+    
+    .pic{
+        width: 100%;
+        padding-left: 200px;
+        img{
+            border-radius: 5%;
+            margin-right: 25px;
+            margin-top: 20px;
+            object-fit: cover;
+            padding-bottom: 20px;
+        }
+    }
+    }
+}

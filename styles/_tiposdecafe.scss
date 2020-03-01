@@ -9,7 +9,7 @@
    .figures{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding-left: 200px;
+    padding-left: 15%;
     
   
     figure{
@@ -52,4 +52,46 @@
          }
         }
         }
+}
+
+@media (max-width:1024px){
+    .tiposdecafe{
+   
+    
+        
+       .figures{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-left: 5%;
+        
+      
+        figure{
+            margin-top: 20px;
+            margin-bottom: 30px;
+            width: 400px;
+            background: rgba(31, 30, 30, 0.582);
+            border-radius:10px  ; 
+            box-shadow: 0 10px 10px black;
+            
+            div {
+            img{
+                position: absolute; 
+                border-radius:10px 10px 0 0  ; 
+                object-fit: cover;
+                 
+            }
+            h2{
+                position: relative;
+                top :120px;
+                text-align: left;
+                color: white;
+                left: 55px;
+    
+                }
+            }
+    
+           
+         }
+        }
+    }
 }

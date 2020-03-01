@@ -128,6 +128,39 @@ header {
      object-fit: cover;
 }
 
+@media (max-width: 1024px) {
+  .introduccion {
+    max-width: 1330px;
+    margin: auto;
+    margin-top: 30px;
+    border-bottom: 1px solid rgba(88, 38, 38, 0.74);
+  }
+  .introduccion .container-cafe {
+    display: block;
+  }
+  .introduccion .cafe p {
+    font-family: arial;
+    text-align: justify;
+    font-size: 1rem;
+    margin: 15px 0;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 100px;
+  }
+  .introduccion .pic {
+    width: 100%;
+    padding-left: 200px;
+  }
+  .introduccion .pic img {
+    border-radius: 5%;
+    margin-right: 25px;
+    margin-top: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding-bottom: 20px;
+  }
+}
+
 .tiposdecafe {
   max-width: 1330px;
   margin: auto;
@@ -140,7 +173,7 @@ header {
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
-  padding-left: 200px;
+  padding-left: 15%;
 }
 
 .tiposdecafe .figures figure {
@@ -181,6 +214,38 @@ header {
   text-align: justify;
   font-size: 1rem;
   color: white;
+}
+
+@media (max-width: 1024px) {
+  .tiposdecafe .figures {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    padding-left: 5%;
+  }
+  .tiposdecafe .figures figure {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 400px;
+    background: rgba(31, 30, 30, 0.582);
+    border-radius: 10px;
+    -webkit-box-shadow: 0 10px 10px black;
+            box-shadow: 0 10px 10px black;
+  }
+  .tiposdecafe .figures figure div img {
+    position: absolute;
+    border-radius: 10px 10px 0 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .tiposdecafe .figures figure div h2 {
+    position: relative;
+    top: 120px;
+    text-align: left;
+    color: white;
+    left: 55px;
+  }
 }
 
 .cafeorganico {
@@ -244,7 +309,7 @@ header {
   max-width: 1330px;
   margin: auto;
   margin-top: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 .container-producto {
@@ -252,6 +317,16 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.container-producto .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-producto .images img {
+  padding: 0 50px;
 }
 
 .container-producto .tprincipal {
@@ -273,13 +348,199 @@ header {
 
 footer {
   background: #252525;
-  padding: 50px 0;
 }
 
-footer h3 {
+.container-footer {
+  max-width: 1330px;
+  margin: auto;
+  width: 100%;
+  padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-footer h4 {
   color: white;
-  font-family: verdana;
+  font-family: arial;
   font-size: 1rem;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.container-footer p {
+  color: white;
+  font-family: arial;
+}
+
+.container-footer .contac {
+  padding-left: 50px;
+}
+
+.container-footer .contac h4 {
+  padding-left: 60px;
+}
+
+.container-footer .contac div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.container-footer .contac div p {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.container-footer .separation {
+  border-left: 1px solid #868686;
+  height: 150px;
+  position: relative;
+  left: 500px;
+}
+
+.container-footer .direccion {
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 30%;
+}
+
+.container-footer .direccion h4 {
+  padding-left: 60px;
+}
+
+.container-footer .direccion .location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-footer .direccion .location p {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+@media (max-width: 1024px) {
+  .container-footer {
+    max-width: 1330px;
+    margin: auto;
+    width: 100%;
+    padding: 50px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container-footer h4 {
+    color: white;
+    font-family: arial;
+    font-size: 1rem;
+    text-align: left;
+    padding-bottom: 20px;
+  }
+  .container-footer p {
+    color: white;
+    font-family: arial;
+  }
+  .container-footer .contac {
+    padding-left: 50px;
+  }
+  .container-footer .contac h4 {
+    padding-left: 60px;
+  }
+  .container-footer .contac div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 15px;
+  }
+  .container-footer .contac div p {
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+  .container-footer .separation {
+    border-left: 1px solid #868686;
+    height: 150px;
+    position: relative;
+    left: 250px;
+  }
+  .container-footer .direccion {
+    margin: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-left: 30%;
+  }
+  .container-footer .direccion h4 {
+    padding-left: 60px;
+  }
+  .container-footer .direccion .location {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container-footer .direccion .location p {
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+}
+
+.venta {
+  background: url(../img/wallp3.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container-venta {
+  max-width: 1330px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container-venta figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-venta figure div {
+  margin-left: 25%;
+  padding-top: 50px;
+}
+
+.container-venta figure img {
+  padding-left: 50px;
+}
+
+.container-venta figure h3 {
+  font-size: 2rem;
+  font-family: arial;
+  padding-right: 100px;
+  color: #e05f09;
+  padding-bottom: 20px;
+}
+
+.container-venta figure .precio {
   text-align: center;
+  font-size: 3rem;
+}
+
+.container-venta figure button {
+  border-radius: 15px;
+  border: none;
+  padding: 10px 65px;
+  font-family: arial;
+  font-size: 1rem;
+  background-color: #fa8a2e;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.container-venta figure button:hover {
+  background-color: #ff521d;
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,57 @@
+.venta{
+    background: url(../img/wallp3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container-venta{
+    max-width: 1330px;
+    margin: auto;
+    padding-top: 50px;
+    
+    padding-bottom: 50px;   
+
+   
+     figure{
+         display: flex;
+        div{
+            margin-left: 25%;
+            padding-top: 50px;
+            
+            
+        }
+         img{
+             padding-left: 50px;
+         }
+
+         h3{
+            font-size: 2rem;
+            font-family: arial;
+            padding-right: 100px;
+            color: rgb(224, 95, 9);
+            padding-bottom: 20px;
+         }
+
+         .precio{
+             text-align: center;
+             font-size: 3rem;
+             
+         }
+         button{
+             border-radius: 15px;
+             border:none;
+             padding: 10px 65px;
+             font-family: arial;
+             font-size: 1rem;
+             background-color: rgb(250, 138, 46);
+             transition: 1s ease;
+            
+             &:hover{
+                background-color: rgb(255, 82, 29);
+                color: white;
+                
+             }
+         }
+
+     }
+}

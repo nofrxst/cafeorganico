@@ -4,12 +4,18 @@
     margin: auto;
     margin-top: 50px;
    
-    margin-bottom: 20px;    
+    margin-bottom: 100px;    
 }
 .container-producto{
 margin-top: 50px;
 display: flex;
-
+    .images{
+        display: flex;
+        
+        img{
+            padding: 0 50px;
+        }
+    }
 .tprincipal{
     font-size: 1.5rem;
     font-family: arial;

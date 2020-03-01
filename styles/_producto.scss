@@ -1,0 +1,33 @@
+
+.producto{
+    max-width: 1330px;
+    margin: auto;
+    margin-top: 50px;
+   
+    margin-bottom: 20px;    
+}
+.container-producto{
+margin-top: 50px;
+display: flex;
+
+.tprincipal{
+    font-size: 1.5rem;
+    font-family: arial;
+    padding-right: 100px;
+    text-align: justify;
+    line-height: 35px;
+    padding-bottom: 20px;
+}
+
+    
+       p{
+        
+        font-size: 1rem;
+        line-height: 30px;
+        font-family: arial;
+        font-size: 1.2rem;
+        padding-left: 20px;
+
+       }
+
+}

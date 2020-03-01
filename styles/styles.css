@@ -32,6 +32,7 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 10px  0;
 }
 
 .header-container h1 {
@@ -93,7 +94,7 @@ header {
 
 .banner div figure {
   text-align: center;
-  padding-top: 150px;
+  padding-top: 15%;
 }
 
 .introduccion {
@@ -130,7 +131,7 @@ header {
 .tiposdecafe {
   max-width: 1330px;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 50px;
   border-bottom: 1px solid rgba(88, 38, 38, 0.74);
 }
 
@@ -144,10 +145,12 @@ header {
 
 .tiposdecafe .figures figure {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   width: 400px;
   background: rgba(31, 30, 30, 0.582);
   border-radius: 10px;
+  -webkit-box-shadow: 0 10px 10px black;
+          box-shadow: 0 10px 10px black;
 }
 
 .tiposdecafe .figures figure div img {
@@ -212,7 +215,10 @@ header {
 }
 
 .beneficios {
-  margin-top: 20px;
+  max-width: 1330px;
+  margin: auto;
+  margin-top: 50px;
+  border-bottom: 1px solid rgba(88, 38, 38, 0.74);
 }
 
 .beneficios .container-beneficios {
@@ -224,7 +230,7 @@ header {
 }
 
 .beneficios .container-beneficios img {
-  padding-left: 300px;
+  padding-left: 25%;
 }
 
 .beneficios .container-beneficios p {
@@ -232,5 +238,48 @@ header {
   font-size: 1.5rem;
   line-height: 70px;
   padding-left: 100px;
+}
+
+.producto {
+  max-width: 1330px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.container-producto {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-producto .tprincipal {
+  font-size: 1.5rem;
+  font-family: arial;
+  padding-right: 100px;
+  text-align: justify;
+  line-height: 35px;
+  padding-bottom: 20px;
+}
+
+.container-producto p {
+  font-size: 1rem;
+  line-height: 30px;
+  font-family: arial;
+  font-size: 1.2rem;
+  padding-left: 20px;
+}
+
+footer {
+  background: #252525;
+  padding: 50px 0;
+}
+
+footer h3 {
+  color: white;
+  font-family: verdana;
+  font-size: 1rem;
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */
